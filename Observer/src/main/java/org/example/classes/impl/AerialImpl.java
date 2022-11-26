@@ -1,0 +1,10 @@
+package org.example.classes.impl;
+
+import org.example.classes.NotifiedInterface;
+
+public class AerialImpl implements NotifiedInterface {
+    @Override
+    public void notification() {
+        System.out.println("Notificiation received in Aerial");
+    }
+}
